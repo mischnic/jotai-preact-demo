@@ -1,13 +1,7 @@
 {
-	"dependencies": {
-		"jotai": "^0.12.2",
-		"preact": "^10.5.9"
-	},
-	"resolutions": {
-		"use-context-selector": "file:./use-context-selector.tgz"
-	},
 	"scripts": {
-		"start": "parcel index.html"
+		"start:jotai": "parcel jotai/index.html",
+		"start:context": "parcel use-context-selector/index.html"
 	},
 	"alias": {
 		"react": "preact/compat",
@@ -16,5 +10,12 @@
 	},
 	"devDependencies": {
 		"parcel": "2.0.0-nightly.506"
+	},
+	"dependencies": {
+		"jotai": "^0.12.2",
+		"preact": "^10.5.9"
+	},
+	"resolutions": {
+		"use-context-selector": "file:./use-context-selector.tgz"
 	}
 }
