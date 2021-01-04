@@ -1,0 +1,20 @@
+{
+	"dependencies": {
+		"jotai": "^0.12.2",
+		"preact": "^10.5.9"
+	},
+	"resolutions": {
+		"use-context-selector": "file:./use-context-selector.tgz"
+	},
+	"scripts": {
+		"start": "parcel index.html"
+	},
+	"alias": {
+		"react": "preact/compat",
+		"react-dom": "preact/compat",
+		"scheduler": false
+	},
+	"devDependencies": {
+		"parcel": "2.0.0-nightly.506"
+	}
+}
